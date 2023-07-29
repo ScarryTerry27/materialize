@@ -85,5 +85,13 @@ span.badge {
 .my_icons>span>i {
     position: relative;
     top: 5px;
+}
 
+.avatar:hover {
+    background-color: #0159be;
+    color: white;
+}
+
+.collection .collection-item.avatar:not(.circle-clipper)>.avka {
+    left: 0px;
 }
