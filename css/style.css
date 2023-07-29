@@ -7,9 +7,11 @@
     
 }
 
-li > span {
+.collection-item>span.blue-text {
+    text-transform: capitalize;
     position: relative;
-    bottom: 6px;
+    left: 5px;
+    bottom: 7px;
 }
 
 .hoverable {
@@ -61,4 +63,10 @@ a > span {
     position: relative;
     top: 7px;
     right: 4px;
+}
+
+span.badge {
+    min-width: 1rem;
+    position: relative;
+    top: 1px;
 }
